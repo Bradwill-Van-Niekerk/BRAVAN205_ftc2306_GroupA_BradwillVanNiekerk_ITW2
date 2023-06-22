@@ -1,7 +1,7 @@
 h1,
 h2 {
     color: whitesmoke;
-    background-color: black;
+    background-color: grey;
     font-family: sans-serif;
 
 }
@@ -12,8 +12,14 @@ h3 {
 
 body {
     font-style: unset;
+    color: bisque;
+    text-size-adjust: 20;
 }
 
 div {
     padding-left: 25px;
+}
+
+h1 {
+    text-align: center;
 }
