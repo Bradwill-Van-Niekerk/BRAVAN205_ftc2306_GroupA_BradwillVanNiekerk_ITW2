@@ -7,8 +7,14 @@ h2 {
 }
 
 h3 {
-    font-family: sans-serif;
+    text-align: left;
 }
+
+
+div {
+    padding-left: 25px;
+}
+
 
 body {
     font-style: unset;
@@ -16,10 +22,10 @@ body {
     text-size-adjust: 20;
 }
 
-div {
-    padding-left: 25px;
-}
-
 h1 {
     text-align: center;
+}
+
+footer {
+    padding-left: 50px;
 }
