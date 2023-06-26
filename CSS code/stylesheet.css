@@ -31,6 +31,10 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 5px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
 }
 
 div {
@@ -50,10 +54,17 @@ p {
     padding-left: 20px;
 }
 
-aside{ background-color: grey;
-padding: 20px;}
+aside {
+    background-color: grey;
+    padding: 20px;
+}
 
-.Picture{border: 5px;
-    border-radius: 50%;
-    border-style: solid;
-    border-color: white;}
+a {
+    color: rgb(137, 23, 231);
+    text-decoration: none
+}
+
+a:hover {
+    color: black;
+
+}
