@@ -52,3 +52,8 @@ p {
 
 aside{ background-color: grey;
 padding: 20px;}
+
+.Picture{border: 5px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;}
