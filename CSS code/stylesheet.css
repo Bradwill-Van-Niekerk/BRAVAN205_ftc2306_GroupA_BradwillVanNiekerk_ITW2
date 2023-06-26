@@ -1,5 +1,7 @@
 h1 {
     text-align: center;
+    margin: 0px;
+    padding: 20px;
 }
 
 h1,
@@ -37,3 +39,6 @@ div {
     padding: 0.5rem 1rem;
     font-style: oblique;
 }
+img{ margin-left: auto;
+margin-right: auto;
+display: block;}
