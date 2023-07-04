@@ -93,20 +93,24 @@
             </div>
             <div>
                 <form action="https://formsubmit.co/bradwill.oostendorp7@gmail.com" method="POST">
-                    <select name="_subject" id="contact me" required>
-                        <option value="recruiter">Recruiter</option>
-                        <option value="Job op">Job offers</option>
-                        <option value="feedback">Website feed back</option>
-                    </select><br>
-                    <label for="email">Email</label>
-                    <input name="email" type="email" required><br>
-                    <label for="name">Name</label>
-                    <input type="text" name="name" required><br>
-                    <label for="thoughts">feedback</label>
-                    <textarea value="" rows="10" cols="20" optional></textarea><br>
-                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/BRAVAN205_FTC2306_GroupA_BradwillVanNiekerk/intro-to-web/Resume/Resume7.html">
-                    <input type="hidden" name="_autoresponse" value="Thank you for taking time out to reach out to me, I will get back to you as soon as I am able to.">
-                    <button type="submit">Send</button>
+                    <input type="radio" name="_subject" value="Recruiter" required>
+                    <label name="person" value="recruiter">Recruiter</label><br>
+                        <input type="radio" name="_subject" value="Job offers" required>
+                        <label name="person" value="Job op">Job offers</label><br>
+                            <input type="radio" name="_subject" value="Feedback" required>
+                            <label name="person" value="feedback">Feedback</label>
+                               <br>
+                                <label for="email">Email</label>
+                                <input name="email" type="email" required><br>
+                                <label for="name">Name</label>
+                                <input type="text" name="name" required><br>
+                                <label for="thoughts">feedback</label>
+                                <textarea value="" rows="10" cols="20" optional></textarea><br>
+                                <input type="hidden" name="_next"
+                                    value="http://127.0.0.1:5500/BRAVAN205_FTC2306_GroupA_BradwillVanNiekerk/intro-to-web/Resume/Resume7.html">
+                                <input type="hidden" name="_autoresponse"
+                                    value="Thank you for taking time out to reach out to me, I will get back to you as soon as I am able to.">
+                                <button type="submit">Send</button>
                 </form>
             </div>
         </div>
