@@ -1,9 +1,11 @@
+/*heading1 styling*/
 h1 {
     text-align: center;
     margin: 0px;
     padding: 20px;
 }
 
+/*headind 1&2 styling made transparent and changed color and background color as well as font family*/
 h1,
 h2 {
     opacity: 0.7;
@@ -12,25 +14,14 @@ h2 {
     font-family: sans-serif;
 }
 
-h3 {
-    text-align: left;
-}
-
-
-body { background-image: url("/BRAVAN205_FTC2306_GroupA_BradwillVanNiekerk/intro-to-web/Resume/Images/pexels-karolina-grabowska-4814061.jpg");
-    background-size: cover;
-    font-style: unset;
-    color: white;
-    font-size: large;
-    margin: 20px;
-}
-
+/*header background image*/
 header {
     background: rgb(175, 175, 175) url('/BRAVAN205_FTC2306_GroupA_BradwillVanNiekerk/intro-to-web/Resume/Images/pexels-aleksandar-pasaric-2603464.jpg');
     background-size: 100%;
     background-position: center;
 }
 
+/*Picture in header styling*/
 .Picture {
     height: 30%;
     width: 35%;
@@ -51,22 +42,33 @@ header {
     font-style: oblique;
 }
 
-img {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+
+h3 {
+    text-align: left;
 }
 
+/* background image added for the body and font color,size and style set with a margin */
+body {
+    background-image: url("/BRAVAN205_FTC2306_GroupA_BradwillVanNiekerk/intro-to-web/Resume/Images/pexels-karolina-grabowska-4814061.jpg");
+    background-size: cover;
+    font-style: unset;
+    color: white;
+    font-size: large;
+    margin: 20px;
+}
+
+
+/* all content padding */
 p {
     padding-left: 20px;
 }
 
+/* Nav menu padding added */
 aside {
-    background: transparent;
-
     padding: 20px;
 }
 
+/* hyperlink color changed and formatted to change when hovered over */
 a {
     color: rgb(137, 23, 231);
     text-decoration: none
@@ -77,14 +79,7 @@ a:hover {
 
 }
 
-form {
-    border-left: 2px solid black;
-}
-
-#fhead {
-    margin: 0px;
-}
-
+/* flex box added to seperate the links to socials from the form */
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
@@ -92,6 +87,18 @@ form {
 
 .flex-container>div {
     width: 50%;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+@media screen {
+    
+}
+form {
+    border-left: 2px solid black;
 }
 
 select {
