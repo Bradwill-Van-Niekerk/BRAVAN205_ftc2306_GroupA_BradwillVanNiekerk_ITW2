@@ -86,7 +86,7 @@ a:hover {
 }
 
 .flex-container>div {
-    width: 50%;
+    width: 45%;
 }
 
 img {
@@ -94,9 +94,30 @@ img {
     margin-right: auto;
     display: block;
 }
-@media screen {
-    
-}
+/* media query for flexbot */
+/* @media only screen and (max-width: 600px) {
+    [class*="flex-container"] {
+      width: 50%;
+    }
+    } */
+@media only screen and (max-width: 480px){[class*="icon"]{width: 45%;}}
+@media only screen and (max-width: 767px){[class*="icon"]{width: 25%;}}
+@media only screen and (max-width: 1024px){[class*="icon"]{width: 25%;}}
+@media only screen and (min-width: 1024px){[class*="icon"]{width: 25%;}}
+
+@media only screen and (max-width: 480px){[class*="textbox"]{width: 75%;height: 50px;}}
+@media only screen and (max-width: 767px){[class*="textbox"]{width: 75%; height: 60px;}}
+@media only screen and (max-width: 1024px){[class*="textbox"]{width: 75%;height: 80px;}}
+@media only screen and (min-width: 1024px){[class*="textbox"]{width: 75%;height: 100px;}}
+
+@media only screen and (max-width: 480px){[class*="values"]{width: 75%;height: auto;}}
+@media only screen and (max-width: 767px){[class*="values"]{width: 75%; height: auto;}}
+@media only screen and (max-width: 1024px){[class*="values"]{width: 75%;height: auto;}}
+@media only screen and (min-width: 1024px){[class*="values"]{width: 75%;height: auto;}}
+
+
+
+
 form {
     border-left: 2px solid black;
 }
