@@ -6,10 +6,10 @@ h1 {
 
 h1,
 h2 {
+    opacity: 0.7;
     color: whitesmoke;
     background-color: grey;
     font-family: sans-serif;
-
 }
 
 h3 {
@@ -17,17 +17,23 @@ h3 {
 }
 
 
-body {
+body { background-image: url("/BRAVAN205_FTC2306_GroupA_BradwillVanNiekerk/intro-to-web/Resume/Images/pexels-karolina-grabowska-4814061.jpg");
+    background-size: cover;
     font-style: unset;
-    color: black;
+    color: white;
     font-size: large;
     margin: 20px;
 }
 
+header {
+    background: rgb(175, 175, 175) url('/BRAVAN205_FTC2306_GroupA_BradwillVanNiekerk/intro-to-web/Resume/Images/pexels-aleksandar-pasaric-2603464.jpg');
+    background-size: 100%;
+    background-position: center;
+}
 
 .Picture {
-    height: 400px;
-    width: 350px;
+    height: 30%;
+    width: 35%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -38,6 +44,7 @@ body {
 }
 
 #intro {
+    opacity: .7;
     background-color: black;
     color: white;
     padding: 0.5rem 1rem;
@@ -55,7 +62,8 @@ p {
 }
 
 aside {
-    background-color: grey;
+    background: transparent;
+
     padding: 20px;
 }
 
