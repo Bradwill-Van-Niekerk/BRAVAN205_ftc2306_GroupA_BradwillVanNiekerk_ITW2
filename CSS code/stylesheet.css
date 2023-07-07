@@ -16,7 +16,7 @@ h2 {
 
 /*header background image*/
 header {
-    background: rgb(175, 175, 175) url('/BRAVAN205_FTC2306_GroupA_BradwillVanNiekerk/intro-to-web/Resume/Images/pexels-aleksandar-pasaric-2603464.jpg');
+    background: rgb(175, 175, 175) url("/BRAVAN205_FTC2306_GroupA_BradwillVanNiekerk/intro-to-web/Resume/Images/pexels-aleksandar-pasaric-2603464.jpg");
     background-size: 100%;
     background-position: center;
 }
@@ -95,12 +95,6 @@ img {
     display: block;
 }
 
-/* media query for logo buttons and for form */
-/* @media only screen and (max-width: 480px) {
-    [class*="icon"] {
-        width: 45%;
-    }
-} */
 /* Styles for mobile devices */
 @media (max-width: 480px) {
     [class*="icon"] {
